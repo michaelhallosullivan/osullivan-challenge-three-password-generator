@@ -6,6 +6,8 @@ function changeLabel() {
   rangeLabel.textContent = rangeInput.value;
 }
 
+rangeInput.addEventListener("change" , changeLabel);
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -18,6 +20,8 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
