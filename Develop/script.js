@@ -1,4 +1,10 @@
-// Assignment code here
+var rangeInput = document.querySelector("#range-input");
+var rangeLabel = document.querySelector("#range-label");
+rangeLabel.textContent = rangeInput.value;
+
+function changeLabel() {
+  rangeLabel.textContent = rangeInput.value;
+}
 
 
 // Get references to the #generate element

@@ -19,21 +19,26 @@
         <div class="password-criteria">
           <div class="password-length">
             <h3>Password Length</h3>
-            Range<input type="range">
+            <label for="range-input" id="range-label"></label>
+            <input type="range" min="8" max="128" value="8" id="range-input" oninput="changeLabel()">
           </div>
           <div class="password-characters">
             <h3>Password Characters</h3>
             <div class="lowercase">
-              Lowercase<input type="checkbox" id="lower-check">
+              <label for="lower-check">Lowercase</label>
+              <input type="checkbox" id="lower-check">
             </div>
             <div class="uppercase">
-              Uppercase<input type="checkbox" id="upper-check">
+              <label for="upper-check">Uppercase</label>
+              <input type="checkbox" id="upper-check">
             </div>
             <div class="numeric">
-              Numeric<input type="checkbox" id="numeric-check">
+              <label for="numeric-check">Numeric</label>
+              <input type="checkbox" id="numeric-check">
             </div>
             <div class="special">
-              Special<input type="checkbox" id="special-check">
+              <label for="special-check">Special</label>
+              <input type="checkbox" id="special-check">
             </div>
           </div>
         </div>
