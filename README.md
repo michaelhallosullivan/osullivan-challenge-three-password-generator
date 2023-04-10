@@ -21,3 +21,25 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+## Description
+
+Using starter code, students were tasked with adding additional functionality using JavaScript and designated password criteria. A password character length slider was created as well as checkboxes to indicate desired password characters (lowercase, uppercase, special, and/or numeric).
+
+## Installation
+
+N/A
+
+## Usage
+
+This password generator allows for the random generation of a password given desired password criteria. The password length can vary from 8 to 128 characters. The password can include a combination of lowercase, uppercase, special, and numeric characters.
+
+## Credits
+
+Original starter code provided by UCB full-stack coding bootcamp (https://github.com/coding-boot-camp/friendly-parakeet). JavaScript and additional functionality created by Michael O'Sullivan.
+
+## License
+
+MIT License
+
+![Model](Paste_link_here)
