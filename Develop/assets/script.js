@@ -20,11 +20,7 @@ function changeLabel () {
 rangeInput.addEventListener("change" , changeLabel);
 
 function generatePassword() {
-  console.log(includeLowercase.checked);
-  console.log(includeUppercase.checked);
-  console.log(includeNumeric.checked);
-  console.log(includeSpecial.checked);
-  if (includeLowercase.checked == false && includeUppercase.checked === false && includeNumeric.checked === false && includeSpecial.checked === false) {
+  if (includeLowercase.checked === false && includeUppercase.checked === false && includeNumeric.checked === false && includeSpecial.checked === false) {
     alert("Please make at least 1 character selection.");
     return "Try again."
     }
