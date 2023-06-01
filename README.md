@@ -42,4 +42,4 @@ Original starter code provided by UCB full-stack coding bootcamp (https://github
 
 MIT License
 
-![Model](https://github.com/michaelhallosullivan/osullivan-challenge-three-password-generator/blob/main/Develop//assets/images/password-generator.jpg)
+![Model](https://github.com/michaelhallosullivan/osullivan-challenge-three-password-generator/blob/main/Develop/assets/images/password-generator.jpg)
